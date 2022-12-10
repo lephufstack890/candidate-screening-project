@@ -1,0 +1,16 @@
+.add__form {
+    position: relative;
+}
+
+.add__button {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.2rem;
+    color: #3333;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
