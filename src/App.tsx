@@ -3,14 +3,7 @@ import './App.css';
 import ListItem from './components/ListItem';
 import Add from './components/Add';
 import * as ListItemServices from './services/ListItemService';
-
-interface IState {
-  items: {
-      name: String,
-      quantity: number,
-      checked: boolean
-  }[]
-}
+import { IState } from './App.types';
 
 function App() {
 

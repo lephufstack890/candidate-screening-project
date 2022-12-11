@@ -27,6 +27,9 @@ const ListItem: React.FC<TListItemProps> = ({ items, setItems, reloadData }) => 
 	const handleDecrease = (index: number) => {
 		const newItems = [...items];
 		newItems[index].quantity--;
+        if (newItems[index].quantity <= 1) {
+            newItems[index].quantity = 1
+        }
 		setItems(newItems);
         Total()
 	};

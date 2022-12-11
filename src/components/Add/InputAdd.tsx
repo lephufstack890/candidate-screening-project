@@ -1,7 +1,6 @@
+import axios from 'axios';
 import classNames from 'classnames/bind';
 import styles from './Add.module.scss';
-
-import axios from 'axios'
 import { Form, FormikProvider, useFormik } from 'formik';
 import React from 'react';
 import { TInputAddProps } from './InputAdd.types';
